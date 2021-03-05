@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0bc1a95ec8b1e6372285dfcf3e2be8f8",
+    "content-hash": "6370fcee3ec21595262c87c23a416bf0",
     "packages": [
         {
             "name": "art4/json-api-client",
-            "version": "0.10.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Art4/json-api-client.git",
-                "reference": "95c6160058a085d30bac10cd7a00ed2fe77249f7"
+                "reference": "3e9aeec84793b402c3f9f4a6418b09b07469e8b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Art4/json-api-client/zipball/95c6160058a085d30bac10cd7a00ed2fe77249f7",
-                "reference": "95c6160058a085d30bac10cd7a00ed2fe77249f7",
+                "url": "https://api.github.com/repos/Art4/json-api-client/zipball/3e9aeec84793b402c3f9f4a6418b09b07469e8b0",
+                "reference": "3e9aeec84793b402c3f9f4a6418b09b07469e8b0",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0"
+                "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.4.3 || ^6.0 || ^7.0"
+                "phpunit/phpunit": "^9"
             },
             "type": "library",
             "autoload": {
@@ -54,7 +54,11 @@
                 "reader",
                 "validator"
             ],
-            "time": "2019-09-23T17:43:41+00:00"
+            "support": {
+                "issues": "https://github.com/Art4/json-api-client/issues",
+                "source": "https://github.com/Art4/json-api-client/tree/1.0.0"
+            },
+            "time": "2021-03-05T08:30:35+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -4864,5 +4868,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
